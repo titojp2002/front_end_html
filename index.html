@@ -14,14 +14,15 @@
   <h5>Heading Five</h5>
   <h6>Heading Six</h6>
 	<h1>HTML code examples</h1>
-
+	<br>
   <!-- Paragraphs -->
   <p>"Lorem ipsum  dolor sit amet, consectetur adipiscing elit,
     sed do eiusmod tempor  incididunt ut labore et dolore magna
     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
     ullamco laboris nisi ut aliquip ex ea commodo consequat.
   </p>
-  <!-- In this paragraph we will try bold and italyc format -->
+  <!-- In this paragraph we will try bold using <strong> tag
+	and italyc format using <em> tags -->
   <p>
     <strong>Duis aute irure dolor in reprehenderit in voluptate velit
     esse cillum dolore eu fugiat nulla pariatur. "</strong></p>
@@ -37,5 +38,133 @@
 <br>
 <!-- Remote site on a new tab -->
 <a href="https://github.com" target="_blank">Go to Github</a>
+
+<br>
+<!-- Testing unordered list -->
+
+<ul>
+	<li>List Item 1</li>
+	<li>List Item 2</li>
+	<li>List Item 3</li>
+</ul>
+
+<br>
+
+<!-- Testing ordered list -->
+
+<ol>
+	<li>List Item 1</li>
+	<li>List Item 2</li>
+	<li>List Item 3</li>
+</ol>
+
+<br>
+
+<!-- Table tags -->
+
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Phone number</th>
+		</tr>
+		<tbody>
+			<tr>
+				<td>Juan</td>
+				<td>juan@gmail.com</td>
+				<td>1522006655</td>
+			</tr>
+			<tr>
+				<td>Sara</td>
+				<td>Sara@gmail.com</td>
+				<td>1555883399</td>
+			</tr>
+		</tbody>
+	</thead>
+</table>
+
+<br>
+<!-- Form tags -->
+<br>
+
+<form class="" action="index.html" method="post">
+	<div class="">
+		<label>First Name:</label>
+		<input type="text" name="firstName" value="Enter your first name">
+	</div>
+	<br>
+	<div>
+		<label>Last Name:</label>
+		<input type="text" name="lastName" placeholder="Enter your Last Name">
+	</div>
+	<br>
+	<div>
+		<label>E-mail:</label>
+		<input type="email" name="email" placeholder="Enter your E-mail">
+	</div>
+	<br>
+	<div>
+		<label>Message:</label>
+		<textarea name="message" rows="3" cols="40"></textarea>
+	</div>
+	<br>
+	<div>
+		<label>Gender:</label>
+		<select class="" placeholder=="gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			<option value="Other">Other</option>
+		</select>
+	</div>
+	<br>
+	<div>
+		<label>Age:</label>
+		<input type="number" name="age" placeholder="Enter your age">
+	</div>
+	<br>
+	<div>
+		<label>Birthday:</label>
+		<input type="dater" name="birthday" placeholder="Enter your birthday">
+	</div>
+<!-- Now we insert a button -->
+	<br>
+	<div>
+		<input type="button" name="submit" value="Submit1">
+	</div>
+	<br>
+	<div>
+		<input type="submit" name="submit" value="Submit2">
+	</div>
+</form>
+
+<br>
+
+<!-- We can insert a Button outside a form -->
+
+<button type="button" name="Click here 1">Click here 1</button>
+<br>
+<button>Click here 2</button>
+
+<br>
+<br>
+
+<!-- Now lets work with images. If no image is found
+alt would show an alternative text-->
+<a href="images/java.png" target="_blank">
+<img src="images/java.png" alt="My sample image" width="200">
+</a>
+
+<br>
+
+<!-- Quotations -->
+<blockquote cite="google.com">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</blockquote>
+<br>
+
+<!-- Quotations -->
+<p>The <abbr title="World Wide Web">WWW</abbr>is awesome</p>
+
 </body>
 </html>
